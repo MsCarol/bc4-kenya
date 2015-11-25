@@ -18,4 +18,4 @@ function fizz_buzz (num) {
     return num;
 }
 
-
+console.log(fizz_buzz(45));

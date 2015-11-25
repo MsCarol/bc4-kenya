@@ -1,6 +1,5 @@
 function factorial(x) {
-  if (typeof x === 'number' &&
-          x >= 0) {
+  if (typeof x === 'number' &&  x >= 0) {
             if (x === 0) {
               return 1;
             }
@@ -11,4 +10,4 @@ function factorial(x) {
   else {
     return false;
   }
-}
+};

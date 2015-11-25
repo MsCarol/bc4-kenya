@@ -1,0 +1,28 @@
+body {
+    font-family: 'Verdana', 'Serif';
+}
+
+.students {
+    width: 800px;
+    padding: 10px;
+    margin: 20px auto;
+    /*background: red;*/
+}
+
+.students .student {
+    width: 250px;
+    min-height: 50px;
+    border: solid 1px red;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+}
+
+.student span {
+    border: dotted 1px #aaa;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 0 2px;
+    background: #888;
+    color: #fefefe;
+}
